@@ -35,7 +35,7 @@ int main()
     string output_file = "output.txt";
 
     read_file(input_file, lines);
-    lines = {10,"a"};
+    //lines = {10,"a"};
     print_lines(lines);
     write_file(output_file, lines);
     return 0;
