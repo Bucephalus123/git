@@ -17,10 +17,10 @@ void read_file(const string& file, vector<string>& lines)
             lines.push_back(line);
         }
         input_file.close();
-        for (const auto& line: lines) // Проверка корректности чтения файла
+        /*for (const auto& line: lines) // Проверка корректности чтения файла
         {
             cout << line << endl;
-        }
+        }*/
     }
 }
 
